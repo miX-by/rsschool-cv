@@ -1,4 +1,5 @@
-miX-by aka Mike
-Telegram: @miX_by; Discord: miX_by#8336
-I study at The Rolling Scopes (https://rs.school/) on the JS / FRONT-END end course
-Knowledge of English at A2 level
+# My CV 
+*Name* **miX-by aka Mike** 
+*Telegram:* **@miX_by**; *Discord:* **miX_by#8336** 
+I study at The Rolling Scopes (https://rs.school/) on the JS / FRONT-END end course 
+Knowledge of English at A2 level 
