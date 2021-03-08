@@ -6,17 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
     <style>
-        body {background-color: steelblue;}
-        p {font-weight: bold; font-family:Futura; color:gold;}
-        div {text-align: center;}
+        body {background-color: rgb(158, 158, 158); display: flex; justify-content: center; align-items: center;}
+        p {font-weight: bold; font-family:Futura; color:rgb(0, 0, 0);}
     </style>
 </head>
 <body>
-    <div><img src="https://imageshost.ru/images/2021/03/08/image.png" alt="avatar" width="200" height="200"></div>
-    <div>My CV<br>
-        <p>Name: miX-by aka Mike<br>
-        Telegram: @miX_by; Discord: miX_by#8336<br>
-        I study at The Rolling Scopes (https://rs.school/) on the JS / FRONT-END end course<br>
-        Knowledge of English at A2 level</p></div>
+  <div class="wrapper">
+    <header>
+      <img src="https://imageshost.ru/images/2021/03/08/image.png" alt="avatar" width="200" height="200">
+    </header>  
+    <main>
+      <h1>My CV</h1>
+      <h2>Name: miX-by aka Mike</h2>
+      <section class="contacts">
+        <h3>Contacts</h3>
+        <ul>
+          <li>Telegram: <a href="https://t.me/miX_by">@miX_by</a></li>
+          <li>Discord: miX_by#8336</li>
+        </ul>
+      </section>      
+      <section class="description">
+        <h3>About me</h3>
+        <p>I study at The Rolling Scopes (https://rs.school/) on the JS / FRONT-END end course<br>
+          Knowledge of English at A2 level</p>
+          <section class="code">
+            <h3>Code example</h3>
+            <pre>
+              <code>
+                function fizzbuzz(n)
+                {
+                  let result = []
+                for(let i = 1; i &lt;=n; i++) {
+                  if(i % 3 === 0 && i % 5 === 0) {
+                    result.push('FizzBuzz');
+                  } else if(i % 3 === 0) {
+                    result.push('Fizz');
+                  } else if(i % 5 === 0) {
+                    result.push('Buzz');
+                  } else {
+                    result.push(i);
+                  }
+                }
+                  return result
+                }
+              </code>
+            </pre>
+          </section>
+      </section>
+      <section class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>foo-photo</li>
+          <li>SMM</li>
+          <li>Design</li>
+        </ul>
+      </section>      
+    </main>  
+<footer>
+    <a href="https://rs.school"><img src="https://rs.school/images/rs_school_js.svg" alt="rs school" width="100"></a>
+  </footer>
+</div>
 </body>
 </html>
